@@ -829,6 +829,10 @@ The test is a simple set of nested loops calling async functions that don't do m
 Changelog
 ==========
 
+11-Aug 16 v2.6.4
+
+- Optimize $asyncbind() runtime when in Promise mode
+
 06-Aug 16 v2.6.3
 
 - Fix issue with non-tivial destructuring assigments (fixes https://github.com/MatAtBread/fast-async/issues/8 - thanks to @simonbuchan)
